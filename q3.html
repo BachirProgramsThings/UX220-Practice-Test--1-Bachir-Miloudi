@@ -1,17 +1,115 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Question 3</title>
-    <!-- 
-Write an article using semantic markup, header, footer, main and section. In the article compare and contrast old fashioned typesetting with desktop pubishing, html and css.
-Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
-Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
-    -->
-        
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-weight: 400;
+        }
+
+        header {
+            background-color: #2055ae;
+            color: white;
+            padding: 20px;
+        }
+
+        main {
+            background-color: #f3e6cb;
+            color: black;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #24784a;
+            color: white;
+            padding: 20px;
+        }
+
+        h1, h2, p {
+            font-weight: 400;
+        }
+
+        .noun {
+            font-weight: 600;
+        }
+    </style>
 </head>
 
 <body>
+
+    <header>
+        <h1>
+            From <span class="noun">Typesetting</span>
+            to <span class="noun">Web Design</span>
+        </h1>
+    </header>
+
+    <main>
+        <article>
+
+            <section>
+                <h2>Traditional Typesetting</h2>
+                <p>
+                    Traditional typesetting involved
+                    arranging physical letters and
+                    characters for printing. This process
+                    required manual effort and was often
+                    time-consuming when changes were needed.
+                </p>
+            </section>
+
+            <section>
+                <h2>Desktop Publishing</h2>
+                <p>
+                    Desktop publishing introduced computers
+                    and software to the publishing process.
+                    Designers could arrange text and images
+                    digitally, making editing and layout
+                    adjustments much easier.
+                </p>
+            </section>
+
+            <section>
+                <h2>HTML and CSS</h2>
+                <p>
+                    HTML and CSS brought publishing to the
+                    web. HTML defines the structure and
+                    meaning of content, while CSS controls
+                    its visual presentation. This makes
+                    websites easier to maintain and adapt.
+                </p>
+            </section>
+
+            <section>
+                <h2>Comparison</h2>
+                <p>
+                    All three methods organize information
+                    for readers. Traditional typesetting
+                    used physical materials, desktop
+                    publishing moved the process to
+                    computers, and HTML with CSS allows
+                    content to be displayed and updated
+                    across websites and devices.
+                </p>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>
+            Created with
+            <span class="noun">HTML</span> and
+            <span class="noun">CSS</span>.
+        </p>
+    </footer>
+
 </body>
 
 </html>
